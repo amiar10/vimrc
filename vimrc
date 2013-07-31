@@ -26,6 +26,9 @@ let mapleader = ","
 nnoremap + <C-w>+
 nnoremap - <C-w>-
 
+" Make <f3> autoformat entire file and return to position
+nnoremap <f3> mmgg=G'm
+
 "Easier buffer navigation
 " Map ctrl-movement keys to window switching
 map <C-k> <C-w><Up>
